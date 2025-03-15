@@ -1,0 +1,1060 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav-bar .logo img{
+    height: 50px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.nav-bar .nav-links{
+    display: flex;
+}
+.nav-bar .nav-links li{
+    margin-left: 25px;
+    list-style: none;
+}
+.nav-bar .nav-links li a{
+    text-decoration: none;
+    color: #2A2A2E;
+    font-size: 16px;
+    transition: color 0.2s;
+    padding: 0px 3px;
+}
+.nav-bar .nav-links li a:hover{
+    color: lightskyblue;
+}
+.nav-bar .create ul{
+    display: flex;
+    margin-left: 15px;
+}
+.nav-bar .create ul li{
+    margin-left:30px;
+    list-style: none;
+}
+.nav-bar .create li .common{
+    text-decoration: none;
+    color: #2067DA;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 10px;
+    height: 75px;
+    width: 100px;
+    border: solid grey;
+    border-radius: 20px;
+    border-width: 1px;
+}
+.nav-bar .create ul li #currency{
+    color: #2A2A2E;
+    font-size: 16px;
+    padding: 0px 3px;
+    text-decoration: none;
+}
+.nav-bar .create ul li .common:hover{
+    background-color: #EEF3FC;
+    border: solid #2067DA;
+    border-width: 1px;
+}
+.hero img{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-top: 0px;
+}
+.hero .type{
+    height: 50px;
+    width: 900px;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: absolute;
+    top: 185px;
+    left: 285px;
+    background-color: #F8F7F9;
+    border-radius: 15px;
+}
+.hero .type div{
+    display: flex;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+.hero .type div img{
+    height: 40px;
+    width: 40px;
+}
+.hero .type div a{
+    text-decoration: none;
+    padding: 5px 3px;
+    padding-top: 10px;
+    color: #000000;
+}
+.hero .type div a:hover{
+    color: #2067DA;
+}
+.hero .bookingdetails{
+    height: 400px;
+    width: 1000px;
+    background-color: #F8F7F9;
+    position: absolute;
+    top: 220px;
+    left: 230px;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.hero .bookingdetails .staytype{
+    display: flex;
+    padding-top: 40px;
+}
+.bookingdetails .staytype div{
+    height: 25px;
+    width: 165px;
+    border-radius: 25px;
+    border: solid grey;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.bookingdetails .staytype div a{
+    padding-left: 20px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+.bookingdetails .staytype div:hover{
+    border: solid #2067DA;
+    border-width: 1px;
+    background-color: #D6E4FC;
+}
+.bookingdetails .staytype div a:hover{
+    color: #2067DA;
+}
+.bookingdetails .destination{
+    height: 50px;
+    width: 890px;
+    margin-left: 50px;
+    background-color: #FFFFFF;
+    color: grey;
+    border: solid grey;
+    border-width: 1px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.bookingdetails .destination p{
+    color: grey;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+.hero .a{
+    display: flex;
+}
+.hero .a .dates{
+    display: flex;
+    height: 60px;
+    width: 410px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: solid grey;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.dates .going,.return{
+    line-height: 1.6px;
+}
+.dates .going p,.return p{
+    font-size: 18px;
+    padding-left: 30px;
+}
+.dates .days{
+    color: grey;
+}
+.dates .lines{
+    height: 45px;
+    width: 1px;
+    background-color: grey;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+.dates .return p{
+    padding-left: 50px;
+}
+.hero .people{
+    height: 60px;
+    width: 410px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: solid grey;
+    border-width: 1px;
+    border-radius: 5px;
+    line-height: 1.6px;
+}
+.hero .people p{
+    font-size: 18px;
+    padding-left: 30px;
+}
+.hero .people .days{
+    color: grey;
+}
+.hero .b{
+    padding-top: 25px;
+    padding-left: 60px;
+}
+.hero .b a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2067DA;
+}
+.hero .searching{
+    height: 40px;
+    width: 400px;
+    background-color: #2067DA;
+    position: absolute;
+    top: 600px;
+    left: 540px;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 10px;
+}
+.hero .searching a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.hero .searching:hover{
+    background-color: #87B3FB;
+}
+.welcome{
+    color: #000000;
+    font-size: 30px;
+    position: relative;
+    margin-top: 350px;
+    margin-left: 200px;
+}
+.welcomeoffers{
+    height: 125px;
+    width: 1050px;
+    position: relative;
+    margin-left: 200px;
+    background-color: #E5EFFF;
+    border-radius: 20px;
+}
+.welcomeoffers img{
+    height: 100px;
+    width: 315px;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.topdest{
+    margin-top: 80px;
+    color: #000000;
+    font-size: 30px;
+    position: relative;
+    margin-left: 200px;
+}
+.topdestinations{
+    margin-left: 200px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    line-height: 1.6px;
+}
+.topdestinations div img{
+    height: 195px;
+    width: 195px;
+    padding: 10px 7px;
+    border-radius: 15px;
+}
+.topdestinations div a{
+    text-decoration: none;
+    color: #000000;
+}
+.topdestinations div a h4{
+    font-size: 16px;
+    margin-left: 25px;
+}
+.topdestinations div .same{
+    margin-left: 60px;
+}
+.topdestinations div p{
+    font-size: 12px;
+    margin-left: 35px;
+}
+.topdestinations div a:hover{
+    text-decoration: underline #2067DA;
+}
+.accompro{
+    margin-top: 60px;
+    position: relative;
+}
+.accompro h1{
+    font-size: 30px;
+    margin-left: 205px;
+}
+.accompro div{
+    margin-left: 192px;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 208px;
+}
+.accompro div img{
+    height: 200px;
+    width: 345px;
+    padding-left: 10px;
+}
+.flightsandact{
+    margin-top: 100px;
+    position: relative;
+}
+.flightsandact h1{
+    font-size: 30px;
+    margin-left: 205px;
+}
+.flightsandact div{
+    margin-left: 192px;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 208px;
+}
+.flightsandact div img{
+    height: 200px;
+    width: 345px;
+    padding-left: 10px;
+}
+.featuredhomes{
+    margin-top: 80px;
+    position: relative;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.featuredhomes h1{
+    font-size: 30px;
+}
+.featuredhomes .areas .left{
+    float: left;
+    margin-left: 5px;
+}
+.featuredhomes .areas .a{
+    color: #1F67DA;
+    font-weight: bold;
+}
+.featuredhomes .left .b{
+    text-decoration: none;
+    height: 25px;
+    width: 30px;
+    color: #000000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.featuredhomes .areas .left a:hover{
+    color: #1F67DA;
+    background-color: #EEF3FD;
+    border: dotted orange;
+}
+.featuredhomes .areas .right{
+    float: right;
+}
+.featuredhomes .areas .right a{
+    color: #1F67DA;
+    text-decoration: none;
+    font-weight: bold;
+}
+.featuredhomes .right a:hover{
+    text-decoration: underline #1F67DA;
+}
+.delhincr{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 190px;
+    margin-right: 200px;
+}
+.delhincr div{
+    display: block;
+    margin-left: 22px;
+    line-height: 2px;
+}
+.delhincr img{
+    height: 235px;
+    width: 235px;
+}
+.delhincr div h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+.delhincr div a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    color: #1F67DA;
+}
+.delhincr div p{
+    color: grey;
+    font-size: 14px;
+}
+.delhincr div h5{
+    color: #C53729;
+    font-weight: bold;
+    font-size: 18px;
+}
+.delhincr div:hover{
+    text-decoration: underline #1F67DA;
+}
+.popldest{
+    margin-top: 30px;
+    color: #000000;
+    font-size: 30px;
+    position: relative;
+    margin-left: 200px;
+}
+.populardest{
+    margin-left: 200px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    line-height: 1.6px;
+}
+.populardest div img{
+    height: 195px;
+    width: 195px;
+    padding: 10px 7px;
+    border-radius: 15px;
+}
+.populardest div a{
+    text-decoration: none;
+    color: #000000;
+}
+.populardest div a h4{
+    font-size: 16px;
+    margin-left: 65px;
+}
+.populardest div .same{
+    margin-left: 60px;
+}
+.populardest div p{
+    font-size: 12px;
+    margin-left: 35px;
+}
+.populardest div a:hover{
+    text-decoration: underline #2067DA;
+}
+.quick-links{
+    background-color: #E8EBEE;
+    margin-top: 80px;
+    display: flex;
+    padding-left: 210px;
+    padding-right: 210px;
+}
+.quick-links div{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
+.quick-links div h4{
+    color: #000000;
+    margin-left: 40px;
+}
+.quick-links div ul li{
+    list-style: none;
+}
+.quick-links div ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+.quick-links div ul li a:hover{
+    text-decoration: underline #000000;
+}
+.destcities{
+    margin-top: 45px;
+    display: flex;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.destcities div{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+.destcities div p{
+    color: #000000;
+    margin-left: 40px;
+    font-size: 12.5px;
+}
+.destcities div ul li{
+    list-style: none;
+    margin-top: 1px;
+}
+.destcities div ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    color: grey;
+}
+.destcities div ul li a:hover{
+    color: #1F67DA;
+}
+.notify{
+    height: 260px;
+    width: 300px;
+    position: fixed;
+    top: 500px;
+    left: 80%;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    font-size: 14px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.notify h4{
+    padding-left: 45px;
+}
+.notify p{
+    padding-left: 20px;
+}
+.notify img{
+    height: 150px;
+    width: 200px;
+    padding-left: 40px;
+}
+@media(min-width: 749px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav-bar{
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .nav-bar .logo img{
+        height: 50px;
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .nav-bar .nav-links{
+        display: flex;
+    }
+    .nav-bar .nav-links li{
+        margin-left: 25px;
+        list-style: none;
+    }
+    .nav-bar .nav-links li a{
+        text-decoration: none;
+        color: #2A2A2E;
+        font-size: 16px;
+        transition: color 0.2s;
+        padding: 0px 3px;
+    }
+    .nav-bar .nav-links li a:hover{
+        color: lightskyblue;
+    }
+    .nav-bar .create ul{
+        display: flex;
+        margin-left: 15px;
+    }
+    .nav-bar .create ul li{
+        margin-left:30px;
+        list-style: none;
+    }
+    .nav-bar .create li .common{
+        text-decoration: none;
+        color: #2067DA;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 7px 10px;
+        height: 75px;
+        width: 100px;
+        border: solid grey;
+        border-radius: 20px;
+        border-width: 1px;
+    }
+    .nav-bar .create ul li #currency{
+        color: #2A2A2E;
+        font-size: 16px;
+        padding: 0px 3px;
+        text-decoration: none;
+    }
+    .nav-bar .create ul li .common:hover{
+        background-color: #EEF3FC;
+        border: solid #2067DA;
+        border-width: 1px;
+    }
+    .hero img{
+        position: relative;
+        height: 300px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .hero .type{
+        height: 50px;
+        width: 900px;
+        box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1);
+        display: flex;
+        position: absolute;
+        top: 185px;
+        left: 285px;
+        background-color: #F8F7F9;
+        border-radius: 15px;
+    }
+    .hero .type div{
+        display: flex;
+        padding: 5px 5px;
+        margin-left: 10px;
+    }
+    .hero .type div img{
+        height: 40px;
+        width: 40px;
+    }
+    .hero .type div a{
+        text-decoration: none;
+        padding: 5px 3px;
+        padding-top: 10px;
+        color: #000000;
+    }
+    .hero .type div a:hover{
+        color: #2067DA;
+    }
+    .hero .bookingdetails{
+        height: 400px;
+        width: 1000px;
+        background-color: #F8F7F9;
+        position: absolute;
+        top: 220px;
+        left: 230px;
+        box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+    .hero .bookingdetails .staytype{
+        display: flex;
+        padding-top: 40px;
+    }
+    .bookingdetails .staytype div{
+        height: 25px;
+        width: 165px;
+        border-radius: 25px;
+        border: solid grey;
+        border-width: 1px;
+        background-color: #FFFFFF;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .bookingdetails .staytype div a{
+        padding-left: 20px;
+        margin-top: 60px;
+        text-decoration: none;
+        color: #000000;
+    }
+    .bookingdetails .staytype div:hover{
+        border: solid #2067DA;
+        border-width: 1px;
+        background-color: #D6E4FC;
+    }
+    .bookingdetails .staytype div a:hover{
+        color: #2067DA;
+    }
+    .bookingdetails .destination{
+        height: 50px;
+        width: 890px;
+        margin-left: 50px;
+        background-color: #FFFFFF;
+        color: grey;
+        border: solid grey;
+        border-width: 1px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .bookingdetails .destination p{
+        color: grey;
+        font-size: 17px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+    .hero .a{
+        display: flex;
+    }
+    .hero .a .dates{
+        display: flex;
+        height: 60px;
+        width: 410px;
+        background-color: #FFFFFF;
+        margin-left: 50px;
+        margin-top: 30px;
+        border: solid grey;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+    .dates .going,.return{
+        line-height: 1.6px;
+    }
+    .dates .going p,.return p{
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .dates .days{
+        color: grey;
+    }
+    .dates .lines{
+        height: 45px;
+        width: 1px;
+        background-color: grey;
+        margin-left: 65px;
+        margin-top: 5px;
+    }
+    .dates .return p{
+        padding-left: 50px;
+    }
+    .hero .people{
+        height: 60px;
+        width: 410px;
+        background-color: #FFFFFF;
+        margin-left: 50px;
+        margin-top: 30px;
+        border: solid grey;
+        border-width: 1px;
+        border-radius: 5px;
+        line-height: 1.6px;
+    }
+    .hero .people p{
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .hero .people .days{
+        color: grey;
+    }
+    .hero .b{
+        padding-top: 25px;
+        padding-left: 60px;
+    }
+    .hero .b a{
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #2067DA;
+    }
+    .hero .searching{
+        height: 40px;
+        width: 400px;
+        background-color: #2067DA;
+        position: absolute;
+        top: 600px;
+        left: 540px;
+        border-radius: 10px;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .hero .searching a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding-left: 150px;
+        padding-top: 20px;
+    }
+    .hero .searching:hover{
+        background-color: #87B3FB;
+    }
+    .welcome{
+        color: #000000;
+        font-size: 30px;
+        position: relative;
+        margin-top: 350px;
+        margin-left: 200px;
+    }
+    .welcomeoffers{
+        height: 125px;
+        width: 1050px;
+        position: relative;
+        margin-left: 200px;
+        background-color: #E5EFFF;
+        border-radius: 20px;
+    }
+    .welcomeoffers img{
+        height: 100px;
+        width: 315px;
+        border-radius: 15px;
+        padding: 10px 15px;
+    }
+    .topdest{
+        margin-top: 80px;
+        color: #000000;
+        font-size: 30px;
+        position: relative;
+        margin-left: 200px;
+    }
+    .topdestinations{
+        margin-left: 200px;
+        background-color: #FFFFFF;
+        position: relative;
+        display: flex;
+        line-height: 1.6px;
+    }
+    .topdestinations div img{
+        height: 195px;
+        width: 195px;
+        padding: 10px 7px;
+        border-radius: 15px;
+    }
+    .topdestinations div a{
+        text-decoration: none;
+        color: #000000;
+    }
+    .topdestinations div a h4{
+        font-size: 16px;
+        margin-left: 25px;
+    }
+    .topdestinations div .same{
+        margin-left: 60px;
+    }
+    .topdestinations div p{
+        font-size: 12px;
+        margin-left: 35px;
+    }
+    .topdestinations div a:hover{
+        text-decoration: underline #2067DA;
+    }
+    .accompro{
+        margin-top: 60px;
+        position: relative;
+    }
+    .accompro h1{
+        font-size: 30px;
+        margin-left: 205px;
+    }
+    .accompro div{
+        margin-left: 192px;
+        display: flex;
+        position: relative;
+        margin-top: 20px;
+        margin-right: 208px;
+    }
+    .accompro div img{
+        height: 200px;
+        width: 345px;
+        padding-left: 10px;
+    }
+    .flightsandact{
+        margin-top: 100px;
+        position: relative;
+    }
+    .flightsandact h1{
+        font-size: 30px;
+        margin-left: 205px;
+    }
+    .flightsandact div{
+        margin-left: 192px;
+        display: flex;
+        position: relative;
+        margin-top: 20px;
+        margin-right: 208px;
+    }
+    .flightsandact div img{
+        height: 200px;
+        width: 345px;
+        padding-left: 10px;
+    }
+    .featuredhomes{
+        margin-top: 80px;
+        position: relative;
+        margin-left: 210px;
+        margin-right: 210px;
+    }
+    .featuredhomes h1{
+        font-size: 30px;
+    }
+    .featuredhomes .areas .left{
+        float: left;
+        margin-left: 5px;
+    }
+    .featuredhomes .areas .a{
+        color: #1F67DA;
+        font-weight: bold;
+    }
+    .featuredhomes .left .b{
+        text-decoration: none;
+        height: 25px;
+        width: 30px;
+        color: #000000;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .featuredhomes .areas .left a:hover{
+        color: #1F67DA;
+        background-color: #EEF3FD;
+        border: dotted orange;
+    }
+    .featuredhomes .areas .right{
+        float: right;
+    }
+    .featuredhomes .areas .right a{
+        color: #1F67DA;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .featuredhomes .right a:hover{
+        text-decoration: underline #1F67DA;
+    }
+    .delhincr{
+        margin-top: 60px;
+        display: flex;
+        margin-left: 190px;
+        margin-right: 200px;
+    }
+    .delhincr div{
+        display: block;
+        margin-left: 22px;
+        line-height: 2px;
+    }
+    .delhincr img{
+        height: 235px;
+        width: 235px;
+    }
+    .delhincr div h4{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .delhincr div a{
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px;
+        color: #1F67DA;
+    }
+    .delhincr div p{
+        color: grey;
+        font-size: 14px;
+    }
+    .delhincr div h5{
+        color: #C53729;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .delhincr div:hover{
+        text-decoration: underline #1F67DA;
+    }
+    .popldest{
+        margin-top: 30px;
+        color: #000000;
+        font-size: 30px;
+        position: relative;
+        margin-left: 200px;
+    }
+    .populardest{
+        margin-left: 200px;
+        background-color: #FFFFFF;
+        position: relative;
+        display: flex;
+        line-height: 1.6px;
+    }
+    .populardest div img{
+        height: 195px;
+        width: 195px;
+        padding: 10px 7px;
+        border-radius: 15px;
+    }
+    .populardest div a{
+        text-decoration: none;
+        color: #000000;
+    }
+    .populardest div a h4{
+        font-size: 16px;
+        margin-left: 65px;
+    }
+    .populardest div .same{
+        margin-left: 60px;
+    }
+    .populardest div p{
+        font-size: 12px;
+        margin-left: 35px;
+    }
+    .populardest div a:hover{
+        text-decoration: underline #2067DA;
+    }
+    .quick-links{
+        background-color: #E8EBEE;
+        margin-top: 80px;
+        display: flex;
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+    .quick-links div{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 20px;
+    }
+    .quick-links div h4{
+        color: #000000;
+        margin-left: 40px;
+    }
+    .quick-links div ul li{
+        list-style: none;
+    }
+    .quick-links div ul li a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+    }
+    .quick-links div ul li a:hover{
+        text-decoration: underline #000000;
+    }
+    .destcities{
+        margin-top: 45px;
+        display: flex;
+        margin-left: 180px;
+        margin-right: 210px;
+    }
+    .destcities div{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        margin-left: 20px;
+    }
+    .destcities div p{
+        color: #000000;
+        margin-left: 40px;
+        font-size: 12.5px;
+    }
+    .destcities div ul li{
+        list-style: none;
+        margin-top: 1px;
+    }
+    .destcities div ul li a{
+        text-decoration: none;
+        font-size: 10px;
+        color: grey;
+    }
+    .destcities div ul li a:hover{
+        color: #1F67DA;
+    }
+    .notify{
+        height: 260px;
+        width: 300px;
+        position: fixed;
+        top: 500px;
+        left: 80%;
+        background-color: white;
+        border-radius: 25px;
+        justify-content: center;
+        font-size: 14px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    .notify h4{
+        padding-left: 45px;
+    }
+    .notify p{
+        padding-left: 20px;
+    }
+    .notify img{
+        height: 150px;
+        width: 200px;
+        padding-left: 40px;
+    }    
+}
